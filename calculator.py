@@ -5,6 +5,8 @@ def calc():
 
     if (op == '+'): res = a + b
     elif (op == '-'): res = a - b
+    elif (op == '*'): res = a * b
+    elif (op == '/'): res = a / b
     
     return res
 
