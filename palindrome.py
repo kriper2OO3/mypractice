@@ -4,7 +4,4 @@ def is_palindrome(s):
 
 user_input = input("Введите строку: ")
 
-if is_palindrome(user_input):
-    print("Да, это палиндром.")
-else:
-    print("Нет, это не палиндром.")
+print("Возможно это палиндром, а может и нет")
